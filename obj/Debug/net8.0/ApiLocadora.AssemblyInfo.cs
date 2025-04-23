@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiLocadora")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec8ed339c3df211cc541f55bf67558d78c32b5d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4fd73934822130ee32180539f448fdce8202340")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiLocadora")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiLocadora")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

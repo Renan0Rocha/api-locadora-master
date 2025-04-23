@@ -1,6 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ApiLocadora.Dtos;
+using ApiLocadora.DataContext;
+using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
+
 
 namespace ApiLocadora.Controllers
 {
@@ -8,68 +12,52 @@ namespace ApiLocadora.Controllers
     [ApiController]
     public class FilmeController : ControllerBase
     {
-        private static List<Filme> listaFilmes = [ 
-            new Filme() { 
-                Nome = "Fast and Furious",
-                Genero = "Action"
-            },
-            new Filme
-            {
-                Nome = "Fast and Furious II",
-                Genero = "Action"
-            },
-            new Filme
-            {
-                Nome = "Fast and Furious - In Tokio",
-                Genero = "Action"
-            }
-        ];
+       private readonly AppDbContext _context;
+
+        public FilmeController(AppDbContext context)
+        {
+            _context = context;
+        }
 
         [HttpGet]
-        public IActionResult Buscar()
+        public async Task<IActionResult> Buscar()
         {
+            var listaFilmes = await _context.Filmes.ToListAsync();
             return Ok(listaFilmes);
         }
 
         [HttpPost]
-        public IActionResult Cadastrar([FromBody] FilmeDto item)
+        public async Task<IActionResult> Cadastrar([FromBody] FilmeDto item)
         {
-            var filme = new Filme();
-            filme.Nome = item.Nome;
-            filme.Genero = item.Genero;
+           var filme = new Filme
+           {
+               Nome = item.Nome,
+               Genero = item.Genero
+           };
 
-            listaFilmes.Add(filme);
+           await _context.Filmes.AddAsync(filme);
+           await _context.SaveChangesAsync();
 
-            return Ok(filme);
+           return Created("", filme);
         }
 
         [HttpPut("{id}")]
         public IActionResult Atualizar(Guid id, [FromBody] FilmeDto item)
         {
-            var filmeExistente = listaFilmes.FirstOrDefault(f => f.Id == id);
 
-            if (filmeExistente == null)
+            if (null == null)
             {
                 return NotFound("Filme não encontrado.");
             }
-            filmeExistente.Nome = item.Nome;
-            filmeExistente.Genero = item.Genero;
 
-            return Ok(filmeExistente);
+            return Ok();
         }
 
 
         [HttpDelete("{id}")]
         public IActionResult Remover(Guid id)
         {
-            var filmeExistente = listaFilmes.FirstOrDefault(f => f.Id == id);
 
-            if (filmeExistente == null)
-            {
-                return NotFound("Filme não encontrado.");
-            }
-
-            listaFilmes.Remove(filmeExistente);
 
             return Ok();
         }

@@ -1,7 +1,52 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|c:\\users\\2023102060020\\documents\\api-locadora-master\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|c:\\users\\2023102060020\\documents\\api-locadora-master\\dtos\\filmedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|solutionrelative:dtos\\filmedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|c:\\users\\2023102060020\\documents\\api-locadora-master\\dtos\\estudiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|solutionrelative:dtos\\estudiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|c:\\users\\2023102060020\\documents\\api-locadora-master\\datacontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|solutionrelative:datacontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|c:\\users\\2023102060020\\documents\\api-locadora-master\\filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|solutionrelative:filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|c:\\users\\2023102060020\\documents\\api-locadora-master\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|solutionrelative:controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|c:\\users\\2023102060020\\documents\\api-locadora-master\\controllers\\estudiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|solutionrelative:controllers\\estudiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|c:\\users\\2023102060020\\documents\\api-locadora-master\\dtos\\generodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|solutionrelative:dtos\\generodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|c:\\users\\2023102060020\\documents\\api-locadora-master\\controllers\\filmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|solutionrelative:controllers\\filmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|c:\\users\\2023102060020\\documents\\api-locadora-master\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|c:\\users\\2023102060020\\documents\\api-locadora-master\\apilocadora.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C8B3440E-2AE5-4E6F-A72C-D61105FDE329}|ApiLocadora.csproj|solutionrelative:apilocadora.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +54,150 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EstudioDto.cs",
+              "DocumentMoniker": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\Dtos\\EstudioDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\EstudioDto.cs",
+              "ToolTip": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\Dtos\\EstudioDto.cs",
+              "RelativeToolTip": "Dtos\\EstudioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T01:42:33.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EstudioController.cs",
+              "DocumentMoniker": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\Controllers\\EstudioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EstudioController.cs",
+              "ToolTip": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\Controllers\\EstudioController.cs",
+              "RelativeToolTip": "Controllers\\EstudioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T00:38:36.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GeneroController.cs",
+              "DocumentMoniker": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\Controllers\\GeneroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GeneroController.cs",
+              "ToolTip": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\Controllers\\GeneroController.cs",
+              "RelativeToolTip": "Controllers\\GeneroController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T00:28:15.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T00:29:08.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FilmeController.cs",
+              "DocumentMoniker": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\Controllers\\FilmeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FilmeController.cs",
+              "ToolTip": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\Controllers\\FilmeController.cs",
+              "RelativeToolTip": "Controllers\\FilmeController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIAywCgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T00:21:13.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Filme.cs",
+              "DocumentMoniker": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\Filme.cs",
+              "RelativeDocumentMoniker": "Filme.cs",
+              "ToolTip": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\Filme.cs",
+              "RelativeToolTip": "Filme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T00:20:50.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FilmeDto.cs",
+              "DocumentMoniker": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\Dtos\\FilmeDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\FilmeDto.cs",
+              "ToolTip": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\Dtos\\FilmeDto.cs",
+              "RelativeToolTip": "Dtos\\FilmeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T00:19:28.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GeneroDto.cs",
+              "DocumentMoniker": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\Dtos\\GeneroDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\GeneroDto.cs",
+              "ToolTip": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\Dtos\\GeneroDto.cs",
+              "RelativeToolTip": "Dtos\\GeneroDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T00:19:25.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\DataContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DataContext\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\DataContext\\AppDbContext.cs",
+              "RelativeToolTip": "DataContext\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T00:08:17.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApiLocadora",
+              "DocumentMoniker": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\ApiLocadora.csproj",
+              "RelativeDocumentMoniker": "ApiLocadora.csproj",
+              "ToolTip": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\ApiLocadora.csproj",
+              "RelativeToolTip": "ApiLocadora.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-23T00:03:10.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\2023102060020\\Documents\\api-locadora-master\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T00:00:04.192Z",
+              "EditorCaption": ""
             }
           ]
         }
